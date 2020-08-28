@@ -1,0 +1,52 @@
+.container {
+  background-color: lightgoldenrodyellow;
+}
+
+.board-container {
+  background-color: grey;
+  width: auto;
+  margin-top: 10%;
+}
+
+.little-square {
+}
+
+.board-row {
+  font-size: 0px;
+}
+
+.board-row > div {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.little-board-row > div {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.little-board-container {
+  margin: auto;
+}
+
+.right {
+  border-right: solid 5px red;
+}
+
+.bottom {
+  border-bottom: solid 5px red;
+}
+
+.Sright {
+  border-right: solid 2px blue;
+}
+
+.Sbottom {
+  border-bottom: solid 2px blue;
+}
