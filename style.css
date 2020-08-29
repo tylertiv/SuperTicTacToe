@@ -8,7 +8,8 @@
   margin-top: 10%;
 }
 
-.little-square {
+.little-square:hover {
+  background-color: darkgrey;
 }
 
 .board-row {
@@ -36,11 +37,11 @@
 }
 
 .right {
-  border-right: solid 5px red;
+  border-right: solid 5px black;
 }
 
 .bottom {
-  border-bottom: solid 5px red;
+  border-bottom: solid 5px black;
 }
 
 .Sright {
